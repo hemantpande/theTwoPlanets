@@ -17,69 +17,46 @@ public class Planet {
         double slingGunsNeeded = Math.ceil(attackingArmy.getSlingGuns() / strength);
         boolean win = true;
 
-        if (horsesNeeded > this.army.getHorses()) {
-            double extraHorsesNeeded = horsesNeeded - this.army.getHorses();
-            double extraElephantsNeeded = Math.ceil(extraHorsesNeeded / strength);
+        Battalion horses = new Battalion(horsesNeeded, this.army.getHorses(), "horses");
+        Battalion elephants = new Battalion(elephantsNeeded, this.army.getElephants(), "elephants");
+        Battalion tanks = new Battalion(tanksNeeded, this.army.getTanks(), "tanks");
+        Battalion slingGuns = new Battalion(slingGunsNeeded, this.army.getSlingGuns(), "slingGuns");
 
-            if(extraElephantsNeeded + elephantsNeeded <= this.army.getElephants()){
-                elephantsNeeded += extraElephantsNeeded;
-                horsesNeeded -= extraHorsesNeeded;
-            }else{
-                win = false;
-                horsesNeeded = this.army.getHorses();
-            }
-        }
-        if (elephantsNeeded > this.army.getElephants()) {
-            double extraElephantsNeeded = elephantsNeeded - this.army.getElephants();
-            double extraHorsesNeeded = extraElephantsNeeded * strength;
-            double extraTanksNeeded = Math.ceil(extraElephantsNeeded / strength);
-
-            if(extraHorsesNeeded + horsesNeeded <= this.army.getHorses()){
-                horsesNeeded += extraHorsesNeeded;
-                elephantsNeeded -= extraElephantsNeeded;
-            }
-            else if(extraTanksNeeded + tanksNeeded <= this.army.getTanks()){
-                tanksNeeded += extraTanksNeeded;
-                elephantsNeeded -= extraElephantsNeeded;
-            }else{
-                win = false;
-                elephantsNeeded = this.army.getElephants();
-            }
-        }
-        if (tanksNeeded > this.army.getTanks()) {
-            double extraTanksNeeded = tanksNeeded - this.army.getTanks();
-            double extraElephantsNeeded = extraTanksNeeded * strength;
-            double extraSlingGunsNeeded = Math.ceil(extraTanksNeeded / strength);
-
-            if(extraElephantsNeeded + elephantsNeeded < this.army.getElephants()){
-                elephantsNeeded += extraElephantsNeeded;
-                tanksNeeded -= extraTanksNeeded;
-            }else if(extraSlingGunsNeeded + slingGunsNeeded <= this.army.getSlingGuns()){
-                slingGunsNeeded += extraSlingGunsNeeded;
-                tanksNeeded -= extraTanksNeeded;
-            }else{
-                win = false;
-                tanksNeeded = this.army.getTanks();
-            }
-        }
-        if (slingGunsNeeded > this.army.getSlingGuns()) {
-            double extraSlingGunsNeeded = slingGunsNeeded - this.army.getSlingGuns();
-            double extraTanksNeeded = extraSlingGunsNeeded * strength;
-
-            if(tanksNeeded + extraTanksNeeded <= this.army.getTanks()){
-                tanksNeeded += extraTanksNeeded;
-                slingGunsNeeded -= extraSlingGunsNeeded;
-            }else{
-                win = false;
-                slingGunsNeeded = this.army.getSlingGuns();
-            }
-        }
-
+        win = decideWhichWayToGo(null, horses, elephants);
+        win = decideWhichWayToGo(horses, elephants, tanks);
+        win = decideWhichWayToGo(elephants, tanks, slingGuns);
+        win = decideWhichWayToGo(tanks, slingGuns, null);
+        
         if(win){
-            return formattedResult("WINS", horsesNeeded, elephantsNeeded, tanksNeeded, slingGunsNeeded);
+            return formattedResult("WINS", horses.needed, elephants.needed, tanks.needed, slingGuns.needed);
         }
 
-        return formattedResult("LOSES", horsesNeeded, elephantsNeeded, tanksNeeded, slingGunsNeeded);
+        return formattedResult("LOSES", horses.needed, elephants.needed, tanks.needed, slingGuns.needed);
+    }
+
+    private boolean decideWhichWayToGo(Battalion previous, Battalion current, Battalion next){
+        boolean win = true;
+        if (current.needed > current.total) {
+            current.extraNeeded = current.needed - current.total;
+
+            if(previous != null &&
+                    ((current.extraNeeded * strength) + previous.needed <= previous.total)){
+                previous.extraNeeded = current.extraNeeded * strength;
+                previous.needed += previous.extraNeeded;
+                current.needed -= current.extraNeeded;
+            }
+            else if(next != null &&
+                    ((Math.ceil(current.extraNeeded / strength)) + next.needed <= next.total)){
+                next.extraNeeded = Math.ceil(current.extraNeeded / strength);
+                next.needed += next.extraNeeded;
+                current.needed -= current.extraNeeded;
+            }else{
+                win = false;
+                current.needed = current.total;
+            }
+        }
+
+        return win;
     }
 
     private String formattedResult(String result, double horses, double elephants, double tanks, double slingGuns) {

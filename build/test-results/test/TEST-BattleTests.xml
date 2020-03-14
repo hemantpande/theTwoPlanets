@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BattleTests" tests="10" skipped="0" failures="1" errors="0" timestamp="2020-03-08T08:15:57" hostname="hemant-ubuntu" time="0.006">
+<testsuite name="BattleTests" tests="10" skipped="0" failures="1" errors="0" timestamp="2020-03-14T19:14:37" hostname="hemant-ubuntu" time="0.008">
   <properties/>
-  <testcase name="handle_substitution_choice_rule_elephants_horses" classname="BattleTests" time="0.001"/>
-  <testcase name="handleBasicAttack" classname="BattleTests" time="0.0"/>
+  <testcase name="handle_substitution_choice_rule_elephants_horses" classname="BattleTests" time="0.002"/>
+  <testcase name="handleBasicAttack" classname="BattleTests" time="0.001"/>
   <testcase name="handle_reverse_substitution_rule_slingGuns_tanks" classname="BattleTests" time="0.0"/>
   <testcase name="handle_forward_substitution_rule_horses_elephants" classname="BattleTests" time="0.001"/>
   <testcase name="handleAttack_with_ZeroTanks" classname="BattleTests" time="0.0"/>
-  <testcase name="handle_reverse_substitution_rule_elephants_horses" classname="BattleTests" time="0.001"/>
+  <testcase name="handle_reverse_substitution_rule_elephants_horses" classname="BattleTests" time="0.0"/>
   <testcase name="handle_attack_sample_1" classname="BattleTests" time="0.0"/>
   <testcase name="handle_attack_sample_2" classname="BattleTests" time="0.002">
-    <failure message="org.junit.ComparisonFailure: expected:&lt;[WINS 75H 50E 10AT 5]SG&gt; but was:&lt;[LOSES 75H 48E 10AT 4]SG&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[WINS 75H 50E 10AT 5]SG&gt; but was:&lt;[LOSES 75H 48E 10AT 4]SG&gt;
+    <failure message="org.junit.ComparisonFailure: expected:&lt;WINS 75H [50E 10AT 5]SG&gt; but was:&lt;WINS 75H [48E 10AT 4]SG&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;WINS 75H [50E 10AT 5]SG&gt; but was:&lt;WINS 75H [48E 10AT 4]SG&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at BattleTests.handle_attack_sample_2(BattleTests.java:122)
@@ -63,7 +63,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="handle_attack_sample_3" classname="BattleTests" time="0.0"/>
+  <testcase name="handle_attack_sample_3" classname="BattleTests" time="0.001"/>
   <testcase name="handle_forward_substitution_rule_elephants_tanks" classname="BattleTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
