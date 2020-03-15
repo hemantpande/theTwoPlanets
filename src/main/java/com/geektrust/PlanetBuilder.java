@@ -1,3 +1,5 @@
+package com.geektrust;
+
 public class PlanetBuilder {
 
     private String name;

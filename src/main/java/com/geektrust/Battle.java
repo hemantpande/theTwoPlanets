@@ -1,10 +1,12 @@
+package com.geektrust;
+
 public class Battle {
 
     private Planet attacking;
     private Planet underAttack;
     private Army attackingArmy;
 
-    Battle between(Planet attacking, Planet underAttack) {
+    public Battle between(Planet attacking, Planet underAttack) {
         this.attacking = attacking;
         this.underAttack = underAttack;
         return this;
