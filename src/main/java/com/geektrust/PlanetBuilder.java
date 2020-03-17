@@ -4,24 +4,23 @@ public class PlanetBuilder {
 
     private String name;
     private Army army;
-    private int strength = 1;
 
-    public PlanetBuilder withName(String name) {
+    public PlanetBuilder withName(final String name) {
         this.name = name;
         return this;
     }
 
-    public PlanetBuilder withArmy(Army army) {
+    public PlanetBuilder withArmy(final Army army) {
         this.army = army;
         return this;
     }
 
     public Planet build() {
-        return new Planet(this.name, this.army, this.strength);
+        return new Planet(this.name, this.army);
     }
 
-    public PlanetBuilder withStrength(int strength) {
-        this.strength = strength;
+    public PlanetBuilder withStrength(final int strength) {
+        this.army.setStrength(strength);
         return this;
     }
 }

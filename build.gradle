@@ -32,8 +32,7 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
-/ TODO : One debatable test is failing in the test suite. Adding this for now, to let the build pass through.
-  Below section can be removed to enforce hard check of passing all tests (which is an ideal thing to do.)*/
-test {
-    ignoreFailures = true
+tasks.withType(Test) {
+    scanForTestClasses = false
+    include "**/*Test.class"
 }

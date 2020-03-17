@@ -2,19 +2,17 @@ package com.geektrust;
 
 public class Planet {
 
-    private final String name;
     private final Army army;
+    private final String name;
 
-    public Planet(String name, Army army, double strength) {
-        this.name = name;
+    public Planet(final String name, final Army army) {
         this.army = army;
-        this.army.setStrength(strength);
+        this.name = name;
     }
 
-    public String handle(Army attackingArmy) {
+    public String handleAttack(Army attackingArmy) {
 
-        army.setAttackingArmy(attackingArmy);
-
-        return army.handleAttack();
+        return army.setAttackingArmy(attackingArmy)
+                .handleAttack();
     }
 }

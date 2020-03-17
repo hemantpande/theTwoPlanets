@@ -6,36 +6,24 @@ public class Battalion {
     protected double total;
     protected double extraNeeded;
 
-    public Battalion(double needed, double total) {
-        this.needed = needed;
+    public Battalion(final double total) {
         this.total = total;
-    }
-
-    public Battalion(double total) {
-        this.total = total;
-    }
-
-    public double getNeeded() {
-        return needed;
     }
 
     public double getTotal() {
         return total;
     }
 
-    public double getExtraNeeded() {
-        return needed - total;
-    }
-
-    public void setNeeded(double needed) {
+    public void setNeeded(final double needed) {
         this.needed = needed;
     }
 
-    public void setTotal(double total) {
-        this.total = total;
+    public boolean hasExceeded() {
+        return this.needed > this.total;
     }
 
-    public void setExtraNeeded(double extraNeeded) {
-        this.extraNeeded = extraNeeded;
+    public void setMax() {
+        if (this.needed > this.total)
+            this.needed = this.total;
     }
 }

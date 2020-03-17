@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5b5348-a8e9-4e11-8a7d-2439addcd618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Army.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Battalion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Outcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/BattleShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/PlanetShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -18,22 +25,29 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/BattleTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/BattleTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-BattleTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-BattleTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Army.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Battalion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BattleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/BattleRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Planet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlanetBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/PlanetBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BattleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BattleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/BattleTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-BattleTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Army.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Battalion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Battalion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/BattleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/BattleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/PlanetBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/PlanetBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BattleTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +56,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="254" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -62,9 +79,52 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TheTwoPlanets" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TheTwoPlanets" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TheTwoPlanets" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TheTwoPlanets" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TheTwoPlanets" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -97,13 +157,73 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BattleTests">
+  <component name="RunManager" selected="Gradle.BattleTest.handle_reverse_substitution_rule_between_elephants_horses">
+    <configuration name="BattleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BattleTest.handleBasicAttack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTest.handleBasicAttack&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BattleTest.handle_reverse_substitution_rule_between_elephants_horses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTest.handle_reverse_substitution_rule_between_elephants_horses&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BattleTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BattleTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -118,93 +238,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BattleTests.handle_forward_substitution_rule_elephants_tanks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TheTwoPlanets [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BattleTests.handle_forward_substitution_rule_elephants_tanks&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BattleTests.handle_reverse_substitution_rule" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BattleTests.handle_reverse_substitution_rule&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BattleTests.handle_reverse_substitution_rule_elephants_horses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BattleTests.handle_reverse_substitution_rule_elephants_horses&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BattleTests.handle_substitution_choice_rule_elephants_horses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BattleTests.handle_substitution_choice_rule_elephants_horses&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BattleTest" />
+        <item itemvalue="Gradle.BattleTest.handle_reverse_substitution_rule_between_elephants_horses" />
+        <item itemvalue="Gradle.BattleTest.handleBasicAttack" />
         <item itemvalue="Gradle.BattleTests" />
-        <item itemvalue="Gradle.BattleTests.handle_substitution_choice_rule_elephants_horses" />
-        <item itemvalue="Gradle.BattleTests.handle_forward_substitution_rule_elephants_tanks" />
-        <item itemvalue="Gradle.BattleTests.handle_reverse_substitution_rule_elephants_horses" />
-        <item itemvalue="Gradle.BattleTests.handle_reverse_substitution_rule" />
+        <item itemvalue="Gradle.TheTwoPlanets [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +293,9 @@
       <workItem from="1575708004010" duration="109000" />
       <workItem from="1583604935074" duration="7462000" />
       <workItem from="1583647672120" duration="8296000" />
-      <workItem from="1584209326761" duration="13929000" />
+      <workItem from="1584209326761" duration="15504000" />
+      <workItem from="1584461683010" duration="252000" />
+      <workItem from="1584461960663" duration="14359000" />
     </task>
     <servers />
   </component>
@@ -242,54 +303,82 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="219" y="85" width="1587" height="834" key="#Plugins" timestamp="1584461933795">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="219" y="85" width="1587" height="834" key="#Plugins/67.27.1853.1053@67.27.1853.1053" timestamp="1584461933795" />
     <state x="154" y="84" width="1625" height="839" key="#Project_Structure" timestamp="1584254931789">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="154" y="84" width="1625" height="839" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1584254931789" />
+    <state x="620" y="105" width="736" height="894" key="#TheTwoPlanets_[clean]" timestamp="1584466229618">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="620" y="105" width="736" height="894" key="#TheTwoPlanets_[clean]/67.27.1853.1053@67.27.1853.1053" timestamp="1584466229618" />
     <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583609412906">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583609412906" />
-    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser" timestamp="1584252058646">
+    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser" timestamp="1584469218575">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1584252058646" />
+    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1584469218575" />
+    <state x="676" y="272" width="624" height="560" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584461970676">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="676" y="272" width="624" height="560" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584461970676" />
+    <state x="727" y="346" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1584473737319">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="727" y="346" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584473737319" />
+    <state x="523" y="27" width="931" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584475947559">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="523" y="27" width="931" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584475947559" />
     <state x="179" y="90" width="1427" height="723" key="#xdebugger.evaluate" timestamp="1583611418840">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="179" y="90" width="1427" height="723" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1583611418840" />
-    <state width="533" height="877" key="GridCell.Tab.0.bottom" timestamp="1584260887805">
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1584466269442">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="533" height="877" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584260887805" />
-    <state width="533" height="877" key="GridCell.Tab.0.center" timestamp="1584260887805">
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584466269442" />
+    <state width="629" height="878" key="GridCell.Tab.0.bottom" timestamp="1584476984212">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="533" height="877" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584260887805" />
-    <state width="533" height="877" key="GridCell.Tab.0.left" timestamp="1584260887804">
+    <state width="629" height="878" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984212" />
+    <state width="629" height="878" key="GridCell.Tab.0.center" timestamp="1584476984211">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="533" height="877" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584260887804" />
-    <state width="533" height="877" key="GridCell.Tab.0.right" timestamp="1584260887805">
+    <state width="629" height="878" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984211" />
+    <state width="629" height="878" key="GridCell.Tab.0.left" timestamp="1584476984211">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="533" height="877" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584260887805" />
-    <state width="1799" height="327" key="GridCell.Tab.1.bottom" timestamp="1584212965444">
+    <state width="629" height="878" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984211" />
+    <state width="629" height="878" key="GridCell.Tab.0.right" timestamp="1584476984211">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584212965444" />
-    <state width="1799" height="327" key="GridCell.Tab.1.center" timestamp="1584212965444">
+    <state width="629" height="878" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984211" />
+    <state width="1799" height="327" key="GridCell.Tab.1.bottom" timestamp="1584471851910">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584212965444" />
-    <state width="1799" height="327" key="GridCell.Tab.1.left" timestamp="1584212965444">
+    <state width="1799" height="327" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851910" />
+    <state width="1799" height="327" key="GridCell.Tab.1.center" timestamp="1584471851907">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584212965444" />
-    <state width="1799" height="327" key="GridCell.Tab.1.right" timestamp="1584212965444">
+    <state width="1799" height="327" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851907" />
+    <state width="1799" height="327" key="GridCell.Tab.1.left" timestamp="1584471851906">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584212965444" />
+    <state width="1799" height="327" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851906" />
+    <state width="1799" height="327" key="GridCell.Tab.1.right" timestamp="1584471851909">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="327" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851908" />
+    <state x="765" y="484" width="456" height="136" key="ReplaceDuplicatesPrompt" timestamp="1584470438911">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="765" y="484" width="456" height="136" key="ReplaceDuplicatesPrompt/67.27.1853.1053@67.27.1853.1053" timestamp="1584470438911" />
     <state x="366" y="100" key="SettingsEditor" timestamp="1584210694816">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -298,29 +387,32 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="322" width="525" height="460" key="chooseDestDirectoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584260711506" />
-    <state x="583" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1584209662413">
+    <state x="583" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1584461962204">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="583" y="341" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584209662413" />
-    <state x="664" y="257" width="649" height="591" key="extract.method.dialog" timestamp="1584262341261">
+    <state x="583" y="341" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584461962204" />
+    <state x="664" y="257" width="649" height="599" key="extract.method.dialog" timestamp="1584472745447">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="664" y="257" width="649" height="591" key="extract.method.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584262341261" />
-    <state x="573" y="225" width="840" height="654" key="find.popup" timestamp="1584260132797">
+    <state x="664" y="257" width="649" height="599" key="extract.method.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584472745447" />
+    <state x="573" y="225" width="840" height="654" key="find.popup" timestamp="1584465358877">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="573" y="225" width="840" height="654" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584260132797" />
-    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog" timestamp="1584212767629">
+    <state x="573" y="225" width="840" height="654" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584465358877" />
+    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog" timestamp="1584473388453">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584212767629" />
-    <state x="573" y="249" key="run.anything.popup" timestamp="1583607385362">
+    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584473388453" />
+    <state x="573" y="249" width="840" height="1034" key="run.anything.popup" timestamp="1584466195555">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="573" y="249" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583607385362" />
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1584252171840">
+    <state x="573" y="249" width="840" height="1034" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584466195555" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1584461804015">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584252171840" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584461804015" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TheTwoPlanets$BattleTests.ic" NAME="BattleTests Coverage Results" MODIFIED="1584465408631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

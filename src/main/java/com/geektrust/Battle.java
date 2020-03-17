@@ -6,7 +6,7 @@ public class Battle {
     private Planet underAttack;
     private Army attackingArmy;
 
-    public Battle between(Planet attacking, Planet underAttack) {
+    public Battle between(final Planet attacking, final Planet underAttack) {
         this.attacking = attacking;
         this.underAttack = underAttack;
         return this;
@@ -18,6 +18,6 @@ public class Battle {
     }
 
     public String result() {
-        return underAttack.handle(this.attackingArmy);
+        return underAttack.handleAttack(this.attackingArmy);
     }
 }

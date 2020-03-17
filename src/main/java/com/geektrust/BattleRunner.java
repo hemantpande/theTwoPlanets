@@ -36,12 +36,12 @@ public class BattleRunner {
                         .result();
                 System.out.println(result);
             } else{
-                System.out.println("Input is not in expected format");
+                System.out.println("Input not in expected format");
             }
         }
     }
 
-    private static Army getArmyFromInputText(String input) {
+    private static Army getArmyFromInputText(final String input) {
         String[] partsOfInputString = input.split(" ");
         try {
 
@@ -57,13 +57,13 @@ public class BattleRunner {
         }
     }
 
-    private static Scanner getScanner(String arg) {
+    private static Scanner getScanner(final String arg) {
         File inputFile = new File(arg);
         Scanner fileScanner = null;
         try {
             fileScanner = new Scanner(inputFile);
         } catch (FileNotFoundException e) {
-            System.out.println("File is not found or is not accessible");
+            System.out.println("File not found or is not accessible");
             System.exit(0);
         }
         return fileScanner;
