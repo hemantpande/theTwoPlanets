@@ -2,52 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5b5348-a8e9-4e11-8a7d-2439addcd618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Outcome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/BattleShould.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/PlanetShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/BattleTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-BattleTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Army.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Battalion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Battalion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/BattleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/BattleRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/PlanetBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/PlanetBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BattleTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +118,47 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BattleTest.handle_reverse_substitution_rule_between_elephants_horses">
+  <component name="RunManager" selected="Gradle.BattleShould">
+    <configuration name="BattleShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleShould&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BattleShould.handleBasicAttack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleShould.handleBasicAttack&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BattleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,12 +179,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BattleTest.handleBasicAttack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'TheTwoPlanets.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTest.handleBasicAttack&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -198,47 +199,7 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BattleTest.handle_reverse_substitution_rule_between_elephants_horses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTest.handle_reverse_substitution_rule_between_elephants_horses&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BattleTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TheTwoPlanets [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TheTwoPlanets [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -249,7 +210,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -259,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BattleShould" />
+        <item itemvalue="Gradle.BattleShould.handleBasicAttack" />
+        <item itemvalue="Gradle.Tests in 'TheTwoPlanets.test'" />
+        <item itemvalue="Gradle.TheTwoPlanets [clean]" />
         <item itemvalue="Gradle.BattleTest" />
-        <item itemvalue="Gradle.BattleTest.handle_reverse_substitution_rule_between_elephants_horses" />
-        <item itemvalue="Gradle.BattleTest.handleBasicAttack" />
-        <item itemvalue="Gradle.BattleTests" />
-        <item itemvalue="Gradle.TheTwoPlanets [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +256,7 @@
       <workItem from="1583647672120" duration="8296000" />
       <workItem from="1584209326761" duration="15504000" />
       <workItem from="1584461683010" duration="252000" />
-      <workItem from="1584461960663" duration="14359000" />
+      <workItem from="1584461960663" duration="14895000" />
     </task>
     <servers />
   </component>
@@ -343,22 +304,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584466269442" />
-    <state width="629" height="878" key="GridCell.Tab.0.bottom" timestamp="1584476984212">
+    <state width="629" height="578" key="GridCell.Tab.0.bottom" timestamp="1584477516913">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="878" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984212" />
-    <state width="629" height="878" key="GridCell.Tab.0.center" timestamp="1584476984211">
+    <state width="629" height="578" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516913" />
+    <state width="629" height="578" key="GridCell.Tab.0.center" timestamp="1584477516912">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="878" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984211" />
-    <state width="629" height="878" key="GridCell.Tab.0.left" timestamp="1584476984211">
+    <state width="629" height="578" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516912" />
+    <state width="629" height="578" key="GridCell.Tab.0.left" timestamp="1584477516912">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="878" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984211" />
-    <state width="629" height="878" key="GridCell.Tab.0.right" timestamp="1584476984211">
+    <state width="629" height="578" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516912" />
+    <state width="629" height="578" key="GridCell.Tab.0.right" timestamp="1584477516913">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="878" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584476984211" />
+    <state width="629" height="578" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516913" />
     <state width="1799" height="327" key="GridCell.Tab.1.bottom" timestamp="1584471851910">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

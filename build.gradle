@@ -34,5 +34,4 @@ dependencies {
 
 tasks.withType(Test) {
     scanForTestClasses = false
-    include "**/*Test.class"
 }
