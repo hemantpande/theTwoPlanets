@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.geektrust.tests.BattalionShould" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-18T18:37:30" hostname="hemant-ubuntu" time="0.003">
+  <properties/>
+  <testcase name="correctly_calculate_the_counter_forces_needed_when_they_are_not_enough" classname="com.geektrust.tests.BattalionShould" time="0.001"/>
+  <testcase name="correctly_balance_the_previous_battalion" classname="com.geektrust.tests.BattalionShould" time="0.0"/>
+  <testcase name="not_balance_the_next_battalion_when_it_is_null" classname="com.geektrust.tests.BattalionShould" time="0.0"/>
+  <testcase name="correctly_calculate_the_counter_forces_needed_when_they_are_enough" classname="com.geektrust.tests.BattalionShould" time="0.0"/>
+  <testcase name="correctly_balance_the_next_battalion" classname="com.geektrust.tests.BattalionShould" time="0.0"/>
+  <testcase name="not_balance_the_previous_battalion_when_it_is_null" classname="com.geektrust.tests.BattalionShould" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

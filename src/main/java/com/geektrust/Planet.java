@@ -10,9 +10,15 @@ public class Planet {
         this.name = name;
     }
 
-    public String handleAttack(Army attackingArmy) {
+    public Army getArmy() {
+        return army;
+    }
 
-        return army.setAttackingArmy(attackingArmy)
-                .handleAttack();
+    public String getName() {
+        return name;
+    }
+
+    public String handleAttack(Army attackingArmy) {
+        return army.handleAttack(attackingArmy);
     }
 }

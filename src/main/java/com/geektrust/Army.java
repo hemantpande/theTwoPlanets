@@ -6,45 +6,46 @@ public class Army {
     private final Battalion elephants;
     private final Battalion tanks;
     private final Battalion slingGuns;
-    private double strength;
+
+    public Army(final double horses, final double elephants, final double tanks, final double slingGuns, int strength) {
+        this.horses = new Battalion(horses, strength);
+        this.elephants = new Battalion(elephants, strength);
+        this.tanks = new Battalion(tanks, strength);
+        this.slingGuns = new Battalion(slingGuns, strength);
+    }
 
     public Army(final double horses, final double elephants, final double tanks, final double slingGuns) {
-        this.horses = new Battalion(horses);
-        this.elephants = new Battalion(elephants);
-        this.tanks = new Battalion(tanks);
-        this.slingGuns = new Battalion(slingGuns);
+        this(horses, elephants, tanks, slingGuns, Constants.DEFAULT_STRENGTH_FACTOR);
     }
 
-    public void setStrength(final double strength) {
-        this.strength = strength;
+    public Battalion getHorses() {
+        return horses;
     }
 
-    public double getHorses() {
-        return horses.getTotal();
+    public Battalion getElephants() {
+        return elephants;
     }
 
-    public double getElephants() {
-        return elephants.getTotal();
+    public Battalion getTanks() {
+        return tanks;
     }
 
-    public double getTanks() {
-        return tanks.getTotal();
+    public Battalion getSlingGuns() {
+        return slingGuns;
     }
 
-    public double getSlingGuns() {
-        return slingGuns.getTotal();
+    @Override
+    public boolean equals(Object obj) {
+        Army compareTo = (Army) obj;
+        return this.horses.total() == compareTo.getHorses().total() &&
+                this.elephants.total() == compareTo.elephants.total() &&
+                this.tanks.total() == compareTo.tanks.total() &&
+                this.slingGuns.total() == compareTo.slingGuns.total();
     }
 
-    public Army setAttackingArmy(final Army attackingArmy) {
-        this.horses.setNeeded(Math.ceil(attackingArmy.getHorses() / strength));
-        this.elephants.setNeeded(Math.ceil(attackingArmy.getElephants() / strength));
-        this.tanks.setNeeded(Math.ceil(attackingArmy.getTanks() / strength));
-        this.slingGuns.setNeeded(Math.ceil(attackingArmy.getSlingGuns() / strength));
+    public String handleAttack(Army attackingArmy) {
 
-        return this;
-    }
-
-    public String handleAttack() {
+        calculateArmyNeededToCounter(attackingArmy);
 
         tryToBalanceBattalions(null, this.horses, this.elephants);
         tryToBalanceBattalions(this.horses, this.elephants, this.tanks);
@@ -52,18 +53,30 @@ public class Army {
         tryToBalanceBattalions(this.tanks, this.slingGuns, null);
 
         if (hasAnyOfTheBattalionsExceededItsForces()) {
-            setBattalionsToMax();
+            trySetBattalionsToMax();
             return formattedResultFor(Outcome.LOSS);
         }
 
         return formattedResultFor(Outcome.WIN);
     }
 
-    private void setBattalionsToMax() {
-        this.horses.setMax();
-        this.elephants.setMax();
-        this.tanks.setMax();
-        this.slingGuns.setMax();
+    private void calculateArmyNeededToCounter(Army attackingArmy) {
+        this.horses.neededFor(attackingArmy.getHorses());
+        this.elephants.neededFor(attackingArmy.getElephants());
+        this.tanks.neededFor(attackingArmy.getTanks());
+        this.slingGuns.neededFor(attackingArmy.getSlingGuns());
+    }
+
+    private void tryToBalanceBattalions(Battalion previous, Battalion current, Battalion next) {
+        current.tryToBalancePrevious(previous);
+        current.tryToBalanceNext(next);
+    }
+
+    private void trySetBattalionsToMax() {
+        this.horses.trySetMax();
+        this.elephants.trySetMax();
+        this.tanks.trySetMax();
+        this.slingGuns.trySetMax();
     }
 
     private boolean hasAnyOfTheBattalionsExceededItsForces() {
@@ -73,38 +86,8 @@ public class Army {
                 this.slingGuns.hasExceeded();
     }
 
-    private void tryToBalanceBattalions(Battalion previous, Battalion current, Battalion next) {
-
-        if (previous != null && current.hasExceeded()) {
-            current.extraNeeded = current.needed - current.total;
-
-            final double forceNeeded = current.extraNeeded * strength;
-            if (forceNeeded + previous.needed < previous.total) {
-                previous.needed += forceNeeded;
-                current.needed -= current.extraNeeded;
-            } else {
-                final double howMuchCanWeGive = Math.ceil((previous.total - previous.needed) / strength);
-                previous.needed += howMuchCanWeGive * strength;
-                current.needed -= howMuchCanWeGive;
-            }
-        }
-        if (next != null && current.hasExceeded()) {
-            current.extraNeeded = current.needed - current.total;
-
-            final double forceNeeded = Math.ceil(current.extraNeeded / strength);
-            if (forceNeeded + next.needed < next.total) {
-                next.needed += forceNeeded;
-                current.needed -= current.extraNeeded;
-            } else {
-                final double howMuchCanWeGive = (next.total - next.needed) * strength;
-                next.needed += Math.ceil(howMuchCanWeGive / strength);
-                current.needed -= howMuchCanWeGive;
-            }
-        }
-    }
-
     private String formattedResultFor(final Outcome result) {
-        return String.format("%s %sH %sE %sAT %sSG", result.value(), (int) this.horses.needed,
-                (int) this.elephants.needed, (int) this.tanks.needed, (int) this.slingGuns.needed);
+        return String.format(Constants.OUTPUT_FORMAT, result.value(), (int) this.horses.needed(),
+                (int) this.elephants.needed(), (int) this.tanks.needed(), (int) this.slingGuns.needed());
     }
 }

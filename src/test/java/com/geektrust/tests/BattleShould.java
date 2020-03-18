@@ -1,13 +1,9 @@
 package com.geektrust.tests;
 
-import com.geektrust.Army;
-import com.geektrust.Battle;
-import com.geektrust.Planet;
-import com.geektrust.PlanetBuilder;
+import com.geektrust.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import static com.geektrust.Constants.*;
 import static org.junit.Assert.assertEquals;
 
 public class BattleShould {
@@ -18,14 +14,20 @@ public class BattleShould {
     @Before
     public void initialize() {
         falicornia = new PlanetBuilder()
-                .withName(PLANET_FALICORNIA)
-                .withArmy(new Army(300, 200, 40, 20))
+                .withName(Constants.PLANET_FALICORNIA)
+                .withHorses(300)
+                .withElephants(200)
+                .withTanks(40)
+                .withSlingGuns(20)
                 .build();
 
         lengaburu = new PlanetBuilder()
-                .withName(PLANET_LENGABURU)
-                .withArmy(new Army(100, 50, 10, 5))
-                .withStrength(STRENGTH_MULTIPLYING_FACTOR)
+                .withName(Constants.PLANET_LENGABURU)
+                .withHorses(100)
+                .withElephants(50)
+                .withTanks(10)
+                .withSlingGuns(5)
+                .withStrength(Constants.STRENGTH_MULTIPLYING_FACTOR)
                 .build();
     }
 
@@ -91,11 +93,19 @@ public class BattleShould {
         assertEquals("WINS 75H 50E 10AT 5SG",
                 forAttackingArmy(new Army(150, 96, 26, 8)));
     }
+
     @Test
     public void handle_attack_sample_3() {
 
         assertEquals("LOSES 100H 38E 10AT 5SG",
                 forAttackingArmy(new Army(250, 50, 20, 15)));
+    }
+
+    @Test
+    public void handle_attack_sample_4() {
+
+        assertEquals("LOSES 100H 29E 10AT 5SG",
+                forAttackingArmy(new Army(200, 58, 18, 12)));
     }
 
     private String forAttackingArmy(Army army) {

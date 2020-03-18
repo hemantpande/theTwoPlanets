@@ -16,14 +16,20 @@ public class BattleRunner {
         Scanner fileScanner = getScanner(args[0]);
 
         Planet falicornia = new PlanetBuilder()
-                .withName("Falicornia")
-                .withArmy(new Army(300, 200, 40, 20))
+                .withName(Constants.PLANET_FALICORNIA)
+                .withHorses(300)
+                .withElephants(200)
+                .withTanks(40)
+                .withSlingGuns(20)
                 .build();
 
         Planet lengaburu = new PlanetBuilder()
-                .withName("Lengaburu")
-                .withArmy(new Army(100, 50, 10, 5))
-                .withStrength(2)
+                .withName(Constants.PLANET_LENGABURU)
+                .withHorses(100)
+                .withElephants(50)
+                .withTanks(10)
+                .withSlingGuns(5)
+                .withStrength(Constants.STRENGTH_MULTIPLYING_FACTOR)
                 .build();
 
         while (fileScanner.hasNextLine()) {
@@ -50,7 +56,7 @@ public class BattleRunner {
             double tanks = Double.parseDouble(partsOfInputString[3].replace("AT", ""));
             double slingGuns = Double.parseDouble(partsOfInputString[4].replace("SG", ""));
 
-            return new Army(horses, elephants, tanks, slingGuns);
+            return new Army(horses, elephants, tanks, slingGuns, Constants.DEFAULT_STRENGTH_FACTOR);
         } catch (IndexOutOfBoundsException | NumberFormatException exception) {
             // TODO : replace with Null-object pattern.
             return null;

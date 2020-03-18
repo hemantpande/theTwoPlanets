@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.geektrust.tests.BattleShould" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-03-17T20:39:02" hostname="hemant-ubuntu" time="0.008">
+<testsuite name="com.geektrust.tests.BattleShould" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-03-18T18:37:30" hostname="hemant-ubuntu" time="0.007">
   <properties/>
-  <testcase name="handle_reverse_substitution_rule_between_elephants_horses" classname="com.geektrust.tests.BattleShould" time="0.002"/>
+  <testcase name="handle_reverse_substitution_rule_between_elephants_horses" classname="com.geektrust.tests.BattleShould" time="0.001"/>
   <testcase name="handle_forward_substitution_rule_between_horses_elephants" classname="com.geektrust.tests.BattleShould" time="0.0"/>
-  <testcase name="handleAttack_with_zeroTanks" classname="com.geektrust.tests.BattleShould" time="0.0"/>
-  <testcase name="handle_substitution_choice_rule_between_elephants_horses" classname="com.geektrust.tests.BattleShould" time="0.001"/>
+  <testcase name="handleAttack_with_zeroTanks" classname="com.geektrust.tests.BattleShould" time="0.001"/>
+  <testcase name="handle_substitution_choice_rule_between_elephants_horses" classname="com.geektrust.tests.BattleShould" time="0.0"/>
   <testcase name="handleBasicAttack" classname="com.geektrust.tests.BattleShould" time="0.0"/>
   <testcase name="handle_forward_substitution_rule_between_elephants_tanks" classname="com.geektrust.tests.BattleShould" time="0.0"/>
-  <testcase name="handle_reverse_substitution_rule_between_slingGuns_tanks" classname="com.geektrust.tests.BattleShould" time="0.001"/>
+  <testcase name="handle_reverse_substitution_rule_between_slingGuns_tanks" classname="com.geektrust.tests.BattleShould" time="0.0"/>
   <testcase name="handle_attack_sample_1" classname="com.geektrust.tests.BattleShould" time="0.0"/>
   <testcase name="handle_attack_sample_2" classname="com.geektrust.tests.BattleShould" time="0.0"/>
   <testcase name="handle_attack_sample_3" classname="com.geektrust.tests.BattleShould" time="0.001"/>
+  <testcase name="handle_attack_sample_4" classname="com.geektrust.tests.BattleShould" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

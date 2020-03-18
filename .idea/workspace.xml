@@ -2,13 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5b5348-a8e9-4e11-8a7d-2439addcd618" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/ArmyShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/BattalionShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/PlanetBuilderShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.geektrust.tests.BattleShould.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.geektrust.tests.BattleShould.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.geektrust.tests.PlanetShould.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.geektrust.tests.PlanetShould.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.geektrust.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.geektrust.tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.geektrust.tests.BattleShould.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.geektrust.tests.BattleShould.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.geektrust.tests.PlanetShould.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.geektrust.tests.PlanetShould.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Army.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Battalion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Battalion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/BattleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/BattleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geektrust/PlanetBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geektrust/PlanetBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/BattleShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/BattleShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/PlanetShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geektrust/tests/PlanetShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +150,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BattleShould">
-    <configuration name="BattleShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BattalionShould.correctly_balance_the_next_battalion">
+    <configuration name="BattalionShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleShould&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattalionShould&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -139,12 +171,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BattleShould.handleBasicAttack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BattalionShould.correctly_balance_the_next_battalion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleShould.handleBasicAttack&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattalionShould.correctly_balance_the_next_battalion&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -159,12 +191,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BattleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BattalionShould.correctly_balance_the_previous_battalion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattleTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattalionShould.correctly_balance_the_previous_battalion&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BattalionShould.correctly_calculate_the_counter_forces_needed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.geektrust.tests.BattalionShould.correctly_calculate_the_counter_forces_needed&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -199,32 +251,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TheTwoPlanets [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BattleShould" />
-        <item itemvalue="Gradle.BattleShould.handleBasicAttack" />
         <item itemvalue="Gradle.Tests in 'TheTwoPlanets.test'" />
-        <item itemvalue="Gradle.TheTwoPlanets [clean]" />
-        <item itemvalue="Gradle.BattleTest" />
+        <item itemvalue="Gradle.BattalionShould.correctly_balance_the_next_battalion" />
+        <item itemvalue="Gradle.BattalionShould.correctly_balance_the_previous_battalion" />
+        <item itemvalue="Gradle.BattalionShould" />
+        <item itemvalue="Gradle.BattalionShould.correctly_calculate_the_counter_forces_needed" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +289,9 @@
       <workItem from="1583647672120" duration="8296000" />
       <workItem from="1584209326761" duration="15504000" />
       <workItem from="1584461683010" duration="252000" />
-      <workItem from="1584461960663" duration="14895000" />
+      <workItem from="1584461960663" duration="15058000" />
+      <workItem from="1584546293468" duration="3642000" />
+      <workItem from="1584549953318" duration="6419000" />
     </task>
     <servers />
   </component>
@@ -264,10 +299,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="219" y="85" width="1587" height="834" key="#Plugins" timestamp="1584461933795">
+    <state x="219" y="85" width="1587" height="834" key="#Plugins" timestamp="1584549936680">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="219" y="85" width="1587" height="834" key="#Plugins/67.27.1853.1053@67.27.1853.1053" timestamp="1584461933795" />
+    <state x="219" y="85" width="1587" height="834" key="#Plugins/67.27.1853.1053@67.27.1853.1053" timestamp="1584549936680" />
     <state x="154" y="84" width="1625" height="839" key="#Project_Structure" timestamp="1584254931789">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -276,22 +311,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="620" y="105" width="736" height="894" key="#TheTwoPlanets_[clean]/67.27.1853.1053@67.27.1853.1053" timestamp="1584466229618" />
-    <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583609412906">
+    <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584551306230">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583609412906" />
-    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser" timestamp="1584469218575">
+    <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584551306230" />
+    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser" timestamp="1584553597341">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1584469218575" />
+    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1584553597341" />
     <state x="676" y="272" width="624" height="560" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584461970676">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="676" y="272" width="624" height="560" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584461970676" />
-    <state x="727" y="346" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1584473737319">
+    <state x="709" y="390" width="569" height="336" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584546873396">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="727" y="346" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584473737319" />
+    <state x="709" y="390" width="569" height="336" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1053@67.27.1853.1053" timestamp="1584546873396" />
+    <state x="727" y="346" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1584546890164">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="727" y="346" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584546890164" />
     <state x="523" y="27" width="931" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584475947559">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -300,42 +339,46 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="179" y="90" width="1427" height="723" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1583611418840" />
+    <state width="544" height="546" key="DebuggerActiveHint" timestamp="1584548477800">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="544" height="546" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1584548477800" />
     <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1584466269442">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584466269442" />
-    <state width="629" height="578" key="GridCell.Tab.0.bottom" timestamp="1584477516913">
+    <state width="1799" height="273" key="GridCell.Tab.0.bottom" timestamp="1584556521967">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="578" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516913" />
-    <state width="629" height="578" key="GridCell.Tab.0.center" timestamp="1584477516912">
+    <state width="1799" height="273" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521967" />
+    <state width="1799" height="273" key="GridCell.Tab.0.center" timestamp="1584556521966">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="578" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516912" />
-    <state width="629" height="578" key="GridCell.Tab.0.left" timestamp="1584477516912">
+    <state width="1799" height="273" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521966" />
+    <state width="1799" height="273" key="GridCell.Tab.0.left" timestamp="1584556521966">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="578" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516912" />
-    <state width="629" height="578" key="GridCell.Tab.0.right" timestamp="1584477516913">
+    <state width="1799" height="273" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521966" />
+    <state width="1799" height="273" key="GridCell.Tab.0.right" timestamp="1584556521966">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="629" height="578" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584477516913" />
-    <state width="1799" height="327" key="GridCell.Tab.1.bottom" timestamp="1584471851910">
+    <state width="1799" height="273" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521966" />
+    <state width="1799" height="273" key="GridCell.Tab.1.bottom" timestamp="1584556521967">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851910" />
-    <state width="1799" height="327" key="GridCell.Tab.1.center" timestamp="1584471851907">
+    <state width="1799" height="273" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521967" />
+    <state width="1799" height="273" key="GridCell.Tab.1.center" timestamp="1584556521967">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851907" />
-    <state width="1799" height="327" key="GridCell.Tab.1.left" timestamp="1584471851906">
+    <state width="1799" height="273" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521967" />
+    <state width="1799" height="273" key="GridCell.Tab.1.left" timestamp="1584556521967">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851906" />
-    <state width="1799" height="327" key="GridCell.Tab.1.right" timestamp="1584471851909">
+    <state width="1799" height="273" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521967" />
+    <state width="1799" height="273" key="GridCell.Tab.1.right" timestamp="1584556521967">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="327" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584471851908" />
+    <state width="1799" height="273" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584556521967" />
     <state x="765" y="484" width="456" height="136" key="ReplaceDuplicatesPrompt" timestamp="1584470438911">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -348,30 +391,45 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="322" width="525" height="460" key="chooseDestDirectoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584260711506" />
-    <state x="583" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1584461962204">
+    <state x="583" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1584549977972">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="583" y="341" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584461962204" />
-    <state x="664" y="257" width="649" height="599" key="extract.method.dialog" timestamp="1584472745447">
+    <state x="583" y="341" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584549977972" />
+    <state x="664" y="257" width="649" height="599" key="extract.method.dialog" timestamp="1584547526830">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="664" y="257" width="649" height="599" key="extract.method.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584472745447" />
+    <state x="664" y="257" width="649" height="599" key="extract.method.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584547526830" />
     <state x="573" y="225" width="840" height="654" key="find.popup" timestamp="1584465358877">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="573" y="225" width="840" height="654" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584465358877" />
-    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog" timestamp="1584473388453">
+    <state width="750" height="530" key="javadoc.popup" timestamp="1584546726789">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584473388453" />
+    <state width="750" height="530" key="javadoc.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584546726789" />
+    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog" timestamp="1584552099723">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="679" y="116" width="619" height="873" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584552099723" />
     <state x="573" y="249" width="840" height="1034" key="run.anything.popup" timestamp="1584466195555">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="573" y="249" width="840" height="1034" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584466195555" />
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1584461804015">
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1584549810518">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584461804015" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584549810518" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/geektrust/tests/BattalionShould.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TheTwoPlanets$BattleTests.ic" NAME="BattleTests Coverage Results" MODIFIED="1584465408631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
